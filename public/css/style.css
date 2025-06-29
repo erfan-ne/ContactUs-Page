@@ -56,10 +56,9 @@ body {
 
 .caption {
   margin-top: 1rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 0.8rem;
   --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
+  color: rgb(107 114 128);
 }
 
 .sect-title {
@@ -86,7 +85,16 @@ body {
   color: rgb(0 123 255 / var(--tw-text-opacity));
 }
 
-.link {
+.mail-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.mail-icon{
+    width: 1.5rem;
+}
+
+.mail-link {
   margin-left: 1rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
