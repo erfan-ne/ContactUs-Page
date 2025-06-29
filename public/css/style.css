@@ -111,6 +111,7 @@ svg {
 
 .mail-link {
   display: flex;
+  text-decoration: none;
   flex-direction: column;
   margin-left: 1rem;
   font-size: 0.79rem;
